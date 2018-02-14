@@ -1,18 +1,18 @@
-bitcoind-rpc-dash.js
+bitcoind-rpc-artax.js
 ===============
 
-[![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc-dash)
-[![Build Status](https://img.shields.io/travis/dashpay/bitcoind-rpc-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashpay/bitcoind-rpc-dash)
-[![Coverage Status](https://img.shields.io/coveralls/dashpay/bitcoind-rpc-dash.svg?style=flat-square)](https://coveralls.io/r/dashpay/bitcoind-rpc-dash?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc-artax.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc-artax)
+[![Build Status](https://img.shields.io/travis/yoyaeArtax/bitcoind-rpc-artax.svg?branch=master&style=flat-square)](https://travis-ci.org/yoyaeArtax/bitcoind-rpc-artax)
+[![Coverage Status](https://img.shields.io/coveralls/yoyaeArtax/bitcoind-rpc-artax.svg?style=flat-square)](https://coveralls.io/r/yoyaeArtax/bitcoind-rpc-artax?branch=master)
 
-A client library to connect to Dash Core RPC in JavaScript.
+A client library to connect to Artax Core RPC in JavaScript.
 
 ## Get Started
 
-bitcoind-rpc-dash.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+bitcoind-rpc-artax.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install bitcoind-rpc-dash
+npm install bitcoind-rpc-artax
 ```
 
 ## RpcClient
@@ -23,14 +23,14 @@ Arguments :
 	- user : (string - optional) - (default: 'user') - Set the user credential.
 	- pass : (string - optional) - (default: 'pass') - Set the password credential.
 	- host : (string - optional) - (default: '127.0.0.1') - The host you want to connect with.
-	- port : (integer - optional) - (default: 9998) - Set the port on which perform the RPC command.
+	- port : (integer - optional) - (default: 21527) - Set the port on which perform the RPC command.
 	
 ## Examples
 
 ```javascript
 var run = function() {
   var bitcore = require('bitcore');
-  var RpcClient = require('bitcoind-rpc-dash');
+  var RpcClient = require('bitcoind-rpc-artax');
 
   var config = {
     protocol: 'http',
@@ -84,10 +84,10 @@ var run = function() {
 
 You can dynamically access to the help of each method by doing
 ```
-const RpcClient = require('bitcoind-rpc-dash');
+const RpcClient = require('bitcoind-rpc-artax');
 var client = new RPCclient({
     protocol:'http',
-    user: 'dash',
+    user: 'artax',
     pass: 'local321', 
     host: '127.0.0.1', 
     port: 19998
