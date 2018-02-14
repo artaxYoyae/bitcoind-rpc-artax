@@ -2,8 +2,8 @@ bitcoind-rpc-artax.js
 ===============
 
 [![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc-artax.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc-artax)
-[![Build Status](https://img.shields.io/travis/yoyaeArtax/bitcoind-rpc-artax.svg?branch=master&style=flat-square)](https://travis-ci.org/yoyaeArtax/bitcoind-rpc-artax)
-[![Coverage Status](https://img.shields.io/coveralls/yoyaeArtax/bitcoind-rpc-artax.svg?style=flat-square)](https://coveralls.io/r/yoyaeArtax/bitcoind-rpc-artax?branch=master)
+[![Build Status](https://img.shields.io/travis/artaxYoyae/bitcoind-rpc-artax.svg?branch=master&style=flat-square)](https://travis-ci.org/artaxYoyae/bitcoind-rpc-artax)
+[![Coverage Status](https://img.shields.io/coveralls/artaxYoyae/bitcoind-rpc-artax.svg?style=flat-square)](https://coveralls.io/r/artaxYoyae/bitcoind-rpc-artax?branch=master)
 
 A client library to connect to Artax Core RPC in JavaScript.
 

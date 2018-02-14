@@ -34,7 +34,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yoyaeArtax/bitcoind-rpc-artax"
+    "url": "https://github.com/artaxYoyae/bitcoind-rpc-artax"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -53,7 +53,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/yoyaeArtax/bitcoind-rpc-artax/issues"
+    "url": "https://github.com/artaxYoyae/bitcoind-rpc-artax/issues"
   },
-  "homepage": "https://github.com/yoyaeArtax/bitcoind-rpc-artax"
+  "homepage": "https://github.com/artaxYoyae/bitcoind-rpc-artax"
 }
